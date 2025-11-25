@@ -1,0 +1,7 @@
+services:
+  backend:
+    build: .
+    container_name: pr-review-service
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
